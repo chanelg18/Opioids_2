@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>Project NO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+   
+</head>
+
+<body>
+
+<div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+       
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="#">Treatment</a></li>
+            <li><a href="file:///C:/Users/CHANEL/Desktop/opioidswebsite/Campaign_2.html">Campaign</a></li>
+            <li><a href="file:///C:/Users/CHANEL/Desktop/opioidswebsite/Opioids_code.html">Home</a></li>
+            <li><a href="file:///C:/Users/CHANEL/Desktop/opioidswebsite/Addiction_2.html">Addiction Quiz</a></li>
+            <li><a href="file:///C:/Users/CHANEL/Desktop/opioidswebsite/Facts.html">Facts</a></li>
+			</ul>
+        </nav>
+      </div>
+	  
+	   <div class="jumbotron text-center">
+    <h1>Project NO</h1> 
+    <p>An Anne Arundel county iniative to stop prescription opioid abuse.</p> 
+  </div>
+
+<style>
+.jumbotron { 
+    background-color: 	#000000; 
+    color: #ffffff;
+}
+
+.bg-2 { 
+    background-color: #000000; /* Dark Blue */
+    color: #ffffff;
+}
+</style>
+
+
+<div class="container-fluid bg-2 text-left">
+  <h3>Treatment</h3>
+  <p>Lorem ipsum..</p>
+  
+</div>
+
+<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+	
+	
+	<div class="container">
+  <div class="row">
+   <center><img src="recovery.jpg" alt="pic" height="250" width="500"></center>
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+	  <p>Lorem ipsum dolor..</p>
+      <p>Ut enim ad..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor..</p>
+      <p>Ut enim ad..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3> 
+      <p>Lorem ipsum dolor..</p>
+      <p>Ut enim ad..</p>
+    </div>
+  </div>
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+ <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var Gbhs = {lat: 39.1581641, lng:-76.6166327 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: Gbhs
+        });
+        var marker = new google.maps.Marker({
+          position: Gbhs,
+          map: map
+        });
+      var Ejal = {lat:39.1719,lng:-76.6164};
+	  var marker_2 = new google.maps.Marker({
+	  position:Ejal,
+	  map: map
+	  
+	  });
+	  var iw = new google.maps.InfoWindow({
+    content: "Ejal Health services"
+  });
+  google.maps.event.addListener(marker_2, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+ var adu = {lat:39.1800,lng:-76.6077};
+ var marker_3 = new google.maps.Marker({
+	position:adu,
+	map:map
+ 
+ })
+  
+ var isw = new google.maps.InfoWindow({
+	content:"Adult Addiction Clinic"
+ 
+ });
+ 
+  
+  
+  
+
+	 }
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKO95BSyD5CrS_7RvKzgl4igQh_mmN5iI&callback=initMap">
+</script>
+
+	  
+
+
+
+</body>
+<style>
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+</style>
+
+
+</html>
